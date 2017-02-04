@@ -69,17 +69,6 @@
                 <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
               </QueryStringParameters>
             </Request>
-            <Request Method="GET" Guid="1e904e12-1d5c-43a6-8bbe-a111e41104e4" Version="1.1" Url="https://mc.yandex.ru/watch/32379010" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
-              <Headers>
-                <Header Name="Referer" Value="http://10.4.134.198/" />
-              </Headers>
-              <QueryStringParameters>
-                <QueryStringParameter Name="wmode" Value="5" RecordedValue="5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
-                <QueryStringParameter Name="callback" Value="_ymjsp549874282" RecordedValue="_ymjsp549874282" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
-                <QueryStringParameter Name="page-url" Value="http%3A%2F%2F10.4.134.198%2F" RecordedValue="http%3A%2F%2F10.4.134.198%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
-                <QueryStringParameter Name="browser-info" Value="j%3A1%3As%3A1821x1024x24%3Ask%3A0.75%3Aadb%3A2%3Af%3A24.0.0.194%3Al%3A5.1.50901.0%3Afpr%3A391975119301%3Acn%3A1%3Aw%3A1381x851%3Az%3A300%3Ai%3A20170204011031%3Aet%3A1486152631%3Aen%3Autf-8%3Av%3A772%3Ac%3A1%3Ala%3Aru-ru%3Apv%3A1%3Als%3A848928741260%3Arqn%3A4%3Arn%3A189615301%3Ahid%3A610111614%3Ads%3A0%2C0%2C3%2C15%2C2968%2C2968%2C%2C%2C%2C%2C%2C%2C%3Afp%3A3613%3Arqnl%3A1%3Ast%3A1486152631%3Au%3A1486152533816139577%3At%3A%D0%A4%D0%98%D0%A1%20%C2%AB%D0%9D%D0%B0%20%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA%C2%BB" RecordedValue="j%3A1%3As%3A1821x1024x24%3Ask%3A0.75%3Aadb%3A2%3Af%3A24.0.0.194%3Al%3A5.1.50901.0%3Afpr%3A391975119301%3Acn%3A1%3Aw%3A1381x851%3Az%3A300%3Ai%3A20170204011031%3Aet%3A1486152631%3Aen%3Autf-8%3Av%3A772%3Ac%3A1%3Ala%3Aru-ru%3Apv%3A1%3Als%3A848928741260%3Arqn%3A4%3Arn%3A189615301%3Ahid%3A610111614%3Ads%3A0%2C0%2C3%2C15%2C2968%2C2968%2C%2C%2C%2C%2C%2C%2C%3Afp%3A3613%3Arqnl%3A1%3Ast%3A1486152631%3Au%3A1486152533816139577%3At%3A%D0%A4%D0%98%D0%A1%20%C2%AB%D0%9D%D0%B0%20%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA%C2%BB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
-              </QueryStringParameters>
-            </Request>
             <Request Method="GET" Guid="7bb2fe8c-4b96-4504-a8cd-4e51139750ec" Version="1.1" Url="https://fonts.gstatic.com/s/robotoslab/v6/dazS1PrQQuCxC3iOAJFEJTpEpsbGv0WCalYSBSSLSDI.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
               <Headers>
                 <Header Name="Referer" Value="http://10.4.134.198/" />
@@ -1995,35 +1984,6 @@
           <QueryStringParameters>
             <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
           </QueryStringParameters>
-        </Request>
-        <Request Method="POST" Guid="6f31089d-dd91-4f18-af73-16cd87d8a6aa" Version="1.1" Url="https://www.youtube.com/ad_data_204" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
-          <Headers>
-            <Header Name="Referer" Value="https://www.youtube.com/embed/ofyP5rggqB0?rel=0" />
-          </Headers>
-          <FormPostHttpBody>
-            <FormPostParameter Name="dt" Value="1486154186062" RecordedValue="1486154186062" CorrelationBinding="" UrlEncode="True" />
-            <FormPostParameter Name="flash" Value="24.0.0" RecordedValue="24.0.0" CorrelationBinding="" UrlEncode="True" />
-            <FormPostParameter Name="frm" Value="2" RecordedValue="2" CorrelationBinding="{{FormPostParam34.frm}}" UrlEncode="True" />
-            <FormPostParameter Name="u_tz" Value="300" RecordedValue="300" CorrelationBinding="{{FormPostParam39.u_tz}}" UrlEncode="True" />
-            <FormPostParameter Name="u_his" Value="14" RecordedValue="14" CorrelationBinding="{{FormPostParam37.u_his}}" UrlEncode="True" />
-            <FormPostParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="{{FormPostParam30.u_java}}" UrlEncode="True" />
-            <FormPostParameter Name="u_h" Value="1024" RecordedValue="1024" CorrelationBinding="{{FormPostParam40.u_h}}" UrlEncode="True" />
-            <FormPostParameter Name="u_w" Value="1821" RecordedValue="1821" CorrelationBinding="{{FormPostParam41.u_w}}" UrlEncode="True" />
-            <FormPostParameter Name="u_ah" Value="984" RecordedValue="984" CorrelationBinding="{{FormPostParam42.u_ah}}" UrlEncode="True" />
-            <FormPostParameter Name="u_aw" Value="1821" RecordedValue="1821" CorrelationBinding="{{FormPostParam43.u_aw}}" UrlEncode="True" />
-            <FormPostParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="{{FormPostParam38.u_cd}}" UrlEncode="True" />
-            <FormPostParameter Name="u_nplug" Value="3" RecordedValue="3" CorrelationBinding="{{FormPostParam35.u_nplug}}" UrlEncode="True" />
-            <FormPostParameter Name="u_nmime" Value="5" RecordedValue="5" CorrelationBinding="{{FormPostParam36.u_nmime}}" UrlEncode="True" />
-            <FormPostParameter Name="bid" Value="ANyPxKrUN4wi8dMMV_JSpdBKpsqo_ej3VAExZDJab2KNdW70zhPt5vaRb-40dnqRwE53Pyxchkxu" RecordedValue="ANyPxKrUN4wi8dMMV_JSpdBKpsqo_ej3VAExZDJab2KNdW70zhPt5vaRb-40dnqRwE53Pyxchkxu" CorrelationBinding="" UrlEncode="True" />
-            <FormPostParameter Name="ca_type" Value="flash" RecordedValue="flash" CorrelationBinding="" UrlEncode="True" />
-            <FormPostParameter Name="bc" Value="{{FormPostParam31.bc}}" RecordedValue="1" CorrelationBinding="{{FormPostParam31.bc}}" UrlEncode="True" />
-            <FormPostParameter Name="bih" Value="-12245933" RecordedValue="-12245933" CorrelationBinding="" UrlEncode="True" />
-            <FormPostParameter Name="biw" Value="-12245933" RecordedValue="-12245933" CorrelationBinding="" UrlEncode="True" />
-            <FormPostParameter Name="brdim" Value="712,607,-11,-11,1821,,1843,1005,738,410" RecordedValue="712,607,-11,-11,1821,,1843,1005,738,410" CorrelationBinding="" UrlEncode="True" />
-            <FormPostParameter Name="vis" Value="{{FormPostParam32.vis}}" RecordedValue="1" CorrelationBinding="{{FormPostParam32.vis}}" UrlEncode="True" />
-            <FormPostParameter Name="wgl" Value="true" RecordedValue="true" CorrelationBinding="{{FormPostParam33.wgl}}" UrlEncode="True" />
-            <FormPostParameter Name="session_token" Value="QUFFLUhqbkdnXzJpS054bmlYOWhqZTJGU1M3VURmbXFjZ3xBQ3Jtc0trUUZmdWdZWGdvN2phVko5eFJPRk9RVE5MQmJobmtfcElXcHhrZTNqY3J0dmRUSU9FeEJiMWQxZEoxWFhTT1F3ZFlTQTlSekNXbmJtSU1MaTJHc2pJX2ZHcGJJcm1BQ055bHc0M1hyZUk5MXpnbjRReFM4dGJXNXNKMnlzREhlMjdLeUc2QU5xYllTMDY2cVFsUWF1Wm1faWhkS2c=" RecordedValue="QUFFLUhqbkdnXzJpS054bmlYOWhqZTJGU1M3VURmbXFjZ3xBQ3Jtc0trUUZmdWdZWGdvN2phVko5eFJPRk9RVE5MQmJobmtfcElXcHhrZTNqY3J0dmRUSU9FeEJiMWQxZEoxWFhTT1F3ZFlTQTlSekNXbmJtSU1MaTJHc2pJX2ZHcGJJcm1BQ055bHc0M1hyZUk5MXpnbjRReFM4dGJXNXNKMnlzREhlMjdLeUc2QU5xYllTMDY2cVFsUWF1Wm1faWhkS2c=" CorrelationBinding="" UrlEncode="True" />
-          </FormPostHttpBody>
         </Request>
       </Items>
     </TransactionTimer>
