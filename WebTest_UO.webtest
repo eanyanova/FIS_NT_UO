@@ -1,0 +1,2046 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest_UO" Id="84c35edf-68f1-48e0-b20a-8be35dcbd7ac" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest_UO.f867565b-50bd-42a8-aa24-9fe8cb5c4f7c.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <TransactionTimer Name="01. Авторизоваться">
+      <Items>
+        <Request Method="GET" Guid="0b1883ba-3a82-48a9-a178-ac670d8074e3" Version="1.1" Url="http://10.4.134.198/default/test-auth" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://10.4.134.198/" ReportingName="" IgnoreHttpStatusCode="False">
+          <DependentRequests>
+            <Request Method="GET" Guid="269c464c-01d4-4a19-9068-52f63554d554" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="72266bcc-2aed-461d-bf3f-36d00ea2d25f" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Light-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="bb5d1261-22d7-412c-a9d6-2b85d088f5e4" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="ea07ccd4-4278-4f8a-8b7b-e20b4723cfda" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Italic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="be3602a9-0db2-419f-914e-4a90adbf2005" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Medium-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="19ab1364-db2a-416f-a63a-f09c3aff2842" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-MediumItalic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="4155b18e-efc9-46e0-acd7-941096f6e4e1" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="310be11b-122b-46dc-b53d-091adb8ce8f9" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-BoldItalic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="1e904e12-1d5c-43a6-8bbe-a111e41104e4" Version="1.1" Url="https://mc.yandex.ru/watch/32379010" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="wmode" Value="5" RecordedValue="5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="callback" Value="_ymjsp549874282" RecordedValue="_ymjsp549874282" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="page-url" Value="http%3A%2F%2F10.4.134.198%2F" RecordedValue="http%3A%2F%2F10.4.134.198%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="browser-info" Value="j%3A1%3As%3A1821x1024x24%3Ask%3A0.75%3Aadb%3A2%3Af%3A24.0.0.194%3Al%3A5.1.50901.0%3Afpr%3A391975119301%3Acn%3A1%3Aw%3A1381x851%3Az%3A300%3Ai%3A20170204011031%3Aet%3A1486152631%3Aen%3Autf-8%3Av%3A772%3Ac%3A1%3Ala%3Aru-ru%3Apv%3A1%3Als%3A848928741260%3Arqn%3A4%3Arn%3A189615301%3Ahid%3A610111614%3Ads%3A0%2C0%2C3%2C15%2C2968%2C2968%2C%2C%2C%2C%2C%2C%2C%3Afp%3A3613%3Arqnl%3A1%3Ast%3A1486152631%3Au%3A1486152533816139577%3At%3A%D0%A4%D0%98%D0%A1%20%C2%AB%D0%9D%D0%B0%20%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA%C2%BB" RecordedValue="j%3A1%3As%3A1821x1024x24%3Ask%3A0.75%3Aadb%3A2%3Af%3A24.0.0.194%3Al%3A5.1.50901.0%3Afpr%3A391975119301%3Acn%3A1%3Aw%3A1381x851%3Az%3A300%3Ai%3A20170204011031%3Aet%3A1486152631%3Aen%3Autf-8%3Av%3A772%3Ac%3A1%3Ala%3Aru-ru%3Apv%3A1%3Als%3A848928741260%3Arqn%3A4%3Arn%3A189615301%3Ahid%3A610111614%3Ads%3A0%2C0%2C3%2C15%2C2968%2C2968%2C%2C%2C%2C%2C%2C%2C%3Afp%3A3613%3Arqnl%3A1%3Ast%3A1486152631%3Au%3A1486152533816139577%3At%3A%D0%A4%D0%98%D0%A1%20%C2%AB%D0%9D%D0%B0%20%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA%C2%BB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="7bb2fe8c-4b96-4504-a8cd-4e51139750ec" Version="1.1" Url="https://fonts.gstatic.com/s/robotoslab/v6/dazS1PrQQuCxC3iOAJFEJTpEpsbGv0WCalYSBSSLSDI.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+            </Request>
+          </DependentRequests>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3.rel" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="?rel=" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam7.u_his" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="utc=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;1 о" />
+                <RuleParameter Name="Index" Value="2" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam8.u_nmime" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="utc=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;1 о" />
+                <RuleParameter Name="Index" Value="3" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+          <QueryStringParameters>
+            <QueryStringParameter Name="snils" Value="{{DataSource.lot_id_and_users#csv.SNILS}}" RecordedValue="27975192259" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="f6717602-9f06-4b83-9eb7-d36019964fe9" Version="1.1" Url="http://10.4.134.198/infographics/index.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/" />
+          </Headers>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam5.frm" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="dth=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot; str" />
+                <RuleParameter Name="Index" Value="93" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam6.u_nplug" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="dth=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot; str" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+        </Request>
+        <Request Method="GET" Guid="91226021-dd43-408a-a36c-723df430ca86" Version="1.1" Url="https://www.youtube.com/embed/ofyP5rggqB0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam2.bc" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="pi&quot;:&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;,&quot;ho" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam3.vis" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="pi&quot;:&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;,&quot;ho" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.u_java" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="led=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;&#xA;&lt;h" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam4.wgl" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="led=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;&#xA;&lt;h" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+          <QueryStringParameters>
+            <QueryStringParameter Name="rel" Value="0" RecordedValue="0" CorrelationBinding="{{QueryStringParam3.rel}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="1ba36b69-d5c3-4855-9ecf-07fc94d39aef" Version="1.1" Url="http://10.4.134.198/infographics/7c64fb3c06a8c60fc0f756d50d8e86d4.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/infographics/index.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="f0a54532-b5ae-463e-9f6c-db426cb552e0" Version="1.1" Url="http://10.4.134.198/infographics/cf2202cb0f490f0d6d4b28d98dfee0e3.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/infographics/index.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="b44dade6-0f01-44da-9273-3d1e6b54cf28" Version="1.1" Url="https://fonts.gstatic.com/s/roboto/v15/OLffGBTaF0XFOW1gnuHF0WOb2gHztoQeulij-1lvl-8.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.youtube.com/embed/ofyP5rggqB0?rel=0" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="76a39cd8-f8c0-418b-9c14-a74b3c07cf09" Version="1.1" Url="https://fonts.gstatic.com/s/roboto/v15/m1uAalIytmLBFXF3PwhxpPesZW2xOQ-xsNqO47m55DA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.youtube.com/embed/ofyP5rggqB0?rel=0" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="d1d7edd0-d153-406b-a66c-f192c6ae3bdf" Version="1.1" Url="https://fonts.gstatic.com/s/roboto/v15/oHi30kwQWvpCWqAhzHcCSD8E0i7KZn-EPnyo3HZu7kw.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.youtube.com/embed/ofyP5rggqB0?rel=0" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="555f9048-88ce-4edc-b1aa-c790eeb78ac4" Version="1.1" Url="https://googleads.g.doubleclick.net/pagead/id" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.youtube.com/embed/ofyP5rggqB0?rel=0" />
+          </Headers>
+        </Request>
+        <Request Method="POST" Guid="074774b8-77bf-4a19-8dcb-33ee7b3c5e17" Version="1.1" Url="https://www.youtube.com/ad_data_204" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.youtube.com/embed/ofyP5rggqB0?rel=0" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="dt" Value="1486152632242" RecordedValue="1486152632242" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="flash" Value="24.0.0" RecordedValue="24.0.0" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="frm" Value="2" RecordedValue="2" CorrelationBinding="{{FormPostParam5.frm}}" UrlEncode="True" />
+            <FormPostParameter Name="u_tz" Value="300" RecordedValue="300" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="u_his" Value="4" RecordedValue="4" CorrelationBinding="{{FormPostParam7.u_his}}" UrlEncode="True" />
+            <FormPostParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="{{FormPostParam1.u_java}}" UrlEncode="True" />
+            <FormPostParameter Name="u_h" Value="1024" RecordedValue="1024" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="u_w" Value="1821" RecordedValue="1821" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="u_ah" Value="984" RecordedValue="984" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="u_aw" Value="1821" RecordedValue="1821" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="u_nplug" Value="3" RecordedValue="3" CorrelationBinding="{{FormPostParam6.u_nplug}}" UrlEncode="True" />
+            <FormPostParameter Name="u_nmime" Value="5" RecordedValue="5" CorrelationBinding="{{FormPostParam8.u_nmime}}" UrlEncode="True" />
+            <FormPostParameter Name="bid" Value="ANyPxKpcEw6gx0Fav-I_0EbMwKd2pJbvFRAeytCGqjin4u3Wok4toZeve-iEWnpUFQeqvf1kJ68N" RecordedValue="ANyPxKpcEw6gx0Fav-I_0EbMwKd2pJbvFRAeytCGqjin4u3Wok4toZeve-iEWnpUFQeqvf1kJ68N" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ca_type" Value="flash" RecordedValue="flash" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="bc" Value="{{FormPostParam2.bc}}" RecordedValue="1" CorrelationBinding="{{FormPostParam2.bc}}" UrlEncode="True" />
+            <FormPostParameter Name="bih" Value="-12245933" RecordedValue="-12245933" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="biw" Value="-12245933" RecordedValue="-12245933" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="brdim" Value="712,587,-11,-11,1821,,1843,1005,738,410" RecordedValue="712,587,-11,-11,1821,,1843,1005,738,410" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="vis" Value="{{FormPostParam3.vis}}" RecordedValue="1" CorrelationBinding="{{FormPostParam3.vis}}" UrlEncode="True" />
+            <FormPostParameter Name="wgl" Value="true" RecordedValue="true" CorrelationBinding="{{FormPostParam4.wgl}}" UrlEncode="True" />
+            <FormPostParameter Name="session_token" Value="QUFFLUhqa2RZb2F2NjQyUV9rWnZEOXFCelZUcFNlR1hwd3xBQ3Jtc0ttNWJoTnE0d1VQemFHTWpPWXBMRXUtd3gtR1kzdmN3WldKUGNvLUxFckY0UUc5X2hFTTd6R1A2VHh0a0pOSENib0tzaXU4NWFfNDEwSHhFMXVrQXE3eTRMRi1hcGo4SHRPdUx0OEVsNHZnTkpvOHM1TGRqaWIzdFVQNlZSMk9xaW0zUEhYZlJQM1dsN2tmTEp5ZndfYkZaR3FJeGc=" RecordedValue="QUFFLUhqa2RZb2F2NjQyUV9rWnZEOXFCelZUcFNlR1hwd3xBQ3Jtc0ttNWJoTnE0d1VQemFHTWpPWXBMRXUtd3gtR1kzdmN3WldKUGNvLUxFckY0UUc5X2hFTTd6R1A2VHh0a0pOSENib0tzaXU4NWFfNDEwSHhFMXVrQXE3eTRMRi1hcGo4SHRPdUx0OEVsNHZnTkpvOHM1TGRqaWIzdFVQNlZSMk9xaW0zUEhYZlJQM1dsN2tmTEp5ZndfYkZaR3FJeGc=" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="02. Перейти в раздел заявления">
+      <Items>
+        <Request Method="GET" Guid="acfb6f67-e763-4adc-9889-f396a1f25503" Version="1.1" Url="http://10.4.134.198/Official/responsible" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <DependentRequests>
+            <Request Method="GET" Guid="1bafd7e4-d2d5-4f98-8382-ed359c3838eb" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="a8b87f38-1e41-4b44-be17-b7758c809df2" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Light-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="c59535b0-3a01-4819-8555-4475841f8f01" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="46225224-0be1-41b2-b004-99cbb3d24d1f" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Italic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="a5b3c399-1c1d-415f-8423-5f079a36a5c9" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Medium-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="ace834d9-a7ff-4204-997b-8aabe096ed24" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-MediumItalic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="33c84217-d31d-48df-a03c-4cbf33ec2796" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="2f538108-8168-40e5-a5dd-b47aadadcfe7" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-BoldItalic-webfont.eot" ThinkTime="35" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+          </DependentRequests>
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/" />
+          </Headers>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2.LOT_ID" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="?LOT_ID=" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam36.LOT_ID" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="?LOT_ID=" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam37.LOT_ID" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="?LOT_ID=" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="03. Перейти в карточку заявления">
+      <Items>
+        <Request Method="GET" Guid="a0819f0d-336d-404e-a09f-f5a13add905b" Version="1.1" Url="http://10.4.134.198/Official/lot-card-request/index" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <DependentRequests>
+            <Request Method="GET" Guid="2bb45f72-87fa-4315-8ab3-fc6cd715688d" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="5fea600d-d9b4-48e9-8fba-09c1e45cc8b0" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Light-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="579712d5-feaf-44bc-a644-33b975baba52" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="695431c9-c504-4060-934f-66e0bc0629b5" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Italic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="46bd32fb-3227-4cdb-ac05-d9ec432fad8a" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Medium-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="c719480d-26ae-4f0e-82e4-41ef093d6e06" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-MediumItalic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="c5cf69ef-9443-4084-a25f-b830fe2808d8" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="ffd7c6d9-3562-432e-a3cc-0d8d2372d709" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-BoldItalic-webfont.eot" ThinkTime="20" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+          </DependentRequests>
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="LOT_ID" Value="{{DataSource.lot_id_and_users#csv.ID}}" RecordedValue="%7B62d2d6a0-56ff-557d-b186-a6d64cca6b40%7D" CorrelationBinding="{{QueryStringParam2.LOT_ID}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="04. Согласовать">
+      <Items>
+        <Request Method="GET" Guid="0cc50ccc-a9bf-4eda-acd3-f605e45bf6e6" Version="1.1" Url="http://10.4.134.198/Official/lot-card-request/modal-approve" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="text/html, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="_csrf_modal-approve" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;_csrf&quot; value=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam10.RequestLifeCycle[D_REQ_STATUS_ID]" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;&#xA;&#xA;&lt;" />
+                <RuleParameter Name="Index" Value="1" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+        </Request>
+        <Request Method="POST" Guid="bb99145f-b277-4c2b-a1c9-777043cf5d44" Version="1.1" Url="http://10.4.134.198/Official/lot-card-request/change-status" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="_csrf" Value="{{_csrf_modal-approve}}" RecordedValue="TzlLYmZ3WVc3CiE7EA0vYyANJRM8Ag1gDQh/LgsHPTUidyFPMA8sGQ==" CorrelationBinding="{{FormPostParam9._csrf}}" UrlEncode="True" />
+            <FormPostParameter Name="RequestLifeCycle[D_REQ_STATUS_ID]" Value="3" RecordedValue="3" CorrelationBinding="{{FormPostParam10.RequestLifeCycle[D_REQ_STATUS_ID]}}" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+        <Request Method="GET" Guid="6c0f875d-c732-4452-9ff3-c2c2812cdfb7" Version="1.1" Url="http://10.4.134.198/Official/lot-card-request/index" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="LOT_ID" Value="{{DataSource.lot_id_and_users#csv.ID}}" RecordedValue="%7B62d2d6a0-56ff-557d-b186-a6d64cca6b40%7D" CorrelationBinding="{{QueryStringParam36.LOT_ID}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="ce3afcfa-011b-4920-844d-58929f69dbef" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="7b083f81-2fab-42e8-96ff-ca0ffe818d48" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Light-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="d08afc7e-2520-4c96-becb-24a005fd9d37" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="92b1d517-db82-436e-9cb6-864ce0d3fce9" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Italic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="0b700fec-c71f-4806-9952-9d65966e868b" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Medium-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="6f00f281-6328-4f42-ac1b-c2951720f57a" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-MediumItalic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="83fad930-6c2d-4acc-bfb7-276558b0cf0e" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="f3356c4d-9420-4bc5-aa05-dbb097f6d454" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-BoldItalic-webfont.eot" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="True" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="05. Утвердить">
+      <Items>
+        <Request Method="GET" Guid="9d6e1416-e58c-4755-a8f8-c1a68be8d808" Version="1.1" Url="http://10.4.134.198/Official/lot-card-request/modal-confirm" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="text/html, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="_csrf_modal-confirm" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;_csrf&quot; value=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam12.RequestLifeCycle[D_REQ_STATUS_ID]" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;&#xA;&#xA;&lt;" />
+                <RuleParameter Name="Index" Value="1" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+        </Request>
+        <Request Method="POST" Guid="4b1d8594-4016-4830-9ea1-082f0c93542e" Version="1.1" Url="http://10.4.134.198/Official/lot-card-request/change-status" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="_csrf" Value="{{_csrf_modal-confirm}}" RecordedValue="SXZ3LmEwQVMxRR13F0o3ZyZCGV87RRVkC0dDYgxAJTEkOB0DN0g0HQ==" CorrelationBinding="{{FormPostParam11._csrf}}" UrlEncode="True" />
+            <FormPostParameter Name="RequestLifeCycle[D_REQ_STATUS_ID]" Value="27" RecordedValue="27" CorrelationBinding="{{FormPostParam12.RequestLifeCycle[D_REQ_STATUS_ID]}}" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+        <Request Method="GET" Guid="6414f1cf-5fc4-404f-866e-b3d55920e1dd" Version="1.1" Url="http://10.4.134.198/Official/lot-card-request/index" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="LOT_ID" Value="{{DataSource.lot_id_and_users#csv.ID}}" RecordedValue="%7B62d2d6a0-56ff-557d-b186-a6d64cca6b40%7D" CorrelationBinding="{{QueryStringParam37.LOT_ID}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="90ba1100-2c47-47ef-b7e7-3f676b26fa32" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="de15e806-e27f-46a9-b5c4-bdfb5e762446" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Light-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="24bb907d-ee98-4a7c-aa44-e0e636bfb48a" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="110c45ff-77b0-4825-863c-7b9c6a3c529b" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Italic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="14912cb6-3c5b-4092-9696-9e242571a11b" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Medium-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="92933cd1-6024-4501-94e1-2e8a3143ea59" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-MediumItalic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="71deedb4-781d-4acd-bb35-e10c92aa2de4" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="c405c391-bdf3-4296-850a-4c753918f435" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-BoldItalic-webfont.eot" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="06. Перевести в договор">
+      <Items>
+        <Request Method="GET" Guid="ef813466-cb84-47d0-b287-7649e0c38cc1" Version="1.1" Url="http://10.4.134.198/Official/lot-card-request/modal-status-contract" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="text/html, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="_csrf_modal-status-contact" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;_csrf&quot; value=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+        </Request>
+        <Request Method="POST" Guid="37ce8ee1-800c-473e-93e7-9d274261d4b6" Version="1.1" Url="http://10.4.134.198/Official/lot-card-request/contract-status" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="_csrf" Value="{{_csrf_modal-status-contact}}" RecordedValue="Q0F4c2xwalk7chIqGgocbSx1FgI2BT5uAXBMPwEADjsuDxJeOggfFw==" CorrelationBinding="{{FormPostParam13._csrf}}" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+        <Request Method="GET" Guid="052f94d6-4f1d-4b79-9cb0-1717b57bd0c2" Version="1.1" Url="http://10.4.134.198/Official/responsible" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <DependentRequests>
+            <Request Method="GET" Guid="e769756d-c62c-4b2e-b562-b163c9eaed59" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="a85008c7-b35d-4129-9360-946494cb07a4" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Light-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="66da8d1a-c0be-41eb-bb3c-1e93697eb581" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="2e2af2f6-1a48-4e9f-a1a2-a62bed645c89" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Italic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="35153d6b-903e-48ab-b9bc-2be341f2aebe" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Medium-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="4059fa8b-115d-4332-ab3a-0467c16a98f5" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-MediumItalic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="9b3600c9-ffef-4a22-a470-d4bfa091aabd" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="ebf137ec-950f-4159-a0a8-5b0403b2a749" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-BoldItalic-webfont.eot" ThinkTime="38" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+          </DependentRequests>
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-request/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam39.u_tz" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;300" />
+                <RuleParameter Name="Index" Value="326" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam40.u_h" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;102" />
+                <RuleParameter Name="Index" Value="1050" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam41.u_w" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;182" />
+                <RuleParameter Name="Index" Value="1847" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam42.u_ah" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;984" />
+                <RuleParameter Name="Index" Value="1010" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam43.u_aw" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;182" />
+                <RuleParameter Name="Index" Value="1847" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="07. Перейти в раздел Договоры">
+      <Items>
+        <Request Method="GET" Guid="722572e0-e090-4be8-a40a-c328d6c49564" Version="1.1" Url="http://10.4.134.198/Official/contracts" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <DependentRequests>
+            <Request Method="GET" Guid="fb6eb936-55b4-4241-80ed-d0eb2c960da4" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/contracts" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="0afad62a-0db0-4188-98c4-b563da1d196d" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Light-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/contracts" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="74842f4f-6642-4d14-b3ae-b1cffa0f283f" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/contracts" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="79bec267-25c0-40f6-b508-e84881540a16" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Italic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/contracts" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="44168a21-d7b9-4869-921e-81fd85ddc056" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Medium-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/contracts" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="b86e21f2-75f8-4b50-958d-0edecc2b499a" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-MediumItalic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/contracts" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="011215a8-0a3b-4907-be13-27b2b0138f42" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/contracts" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="9d335004-23cf-43dc-bba7-889a8ce52a4f" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-BoldItalic-webfont.eot" ThinkTime="11" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/contracts" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+          </DependentRequests>
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/responsible" />
+          </Headers>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1.LOT_ID" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="?LOT_ID=" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam38.LOT_ID" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="?LOT_ID=" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="08. Перейти в карточку договора">
+      <Items>
+        <Request Method="GET" Guid="ff3c1114-ebc7-4efc-b12f-26065223581e" Version="1.1" Url="http://10.4.134.198/Official/lot-card-contract/index" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <DependentRequests>
+            <Request Method="GET" Guid="f1e1e00d-5510-462b-ad35-189eaee5c246" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="d5d9a618-0284-4cfb-96c4-1799c16756b4" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Light-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="94e40d61-1341-413f-bce3-66f05c94dab7" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="6eaabc25-6a03-4239-b004-0ce4a5598ff6" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Italic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="93cedbe1-7682-4b55-b6ba-47bda5e7cbe4" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Medium-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="20ee5d81-73cc-4132-be45-c4932daf9fa3" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-MediumItalic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="1f1de74e-d5c9-468b-b81a-771237e87726" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="2e482151-bb5a-4ce2-97a7-149b5aa05602" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-BoldItalic-webfont.eot" ThinkTime="13" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+          </DependentRequests>
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/contracts" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="LOT_ID" Value="{{DataSource.lot_id_and_users#csv.ID}}" RecordedValue="%7B62d2d6a0-56ff-557d-b186-a6d64cca6b40%7D" CorrelationBinding="{{QueryStringParam1.LOT_ID}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="09. Отправить договор пользователю">
+      <Items>
+        <Request Method="GET" Guid="06a0586d-aab2-46bc-bed0-3aa205a25370" Version="1.1" Url="http://10.4.134.198/Official/lot-card-contract/modal-formed" ThinkTime="13" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="text/html, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="_csrf_modal-formed" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;_csrf&quot; value=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="ExtractRandomMatch" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="SearchInHeaders" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam14._csrf" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;&#xA;  " />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam15.RequestLifeCycle[D_REQ_STATUS_ID]" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;&#xA;&#xA;&lt;" />
+                <RuleParameter Name="Index" Value="1" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+        </Request>
+        <Request Method="POST" Guid="49ae12ae-d1e2-4d73-9372-fdf108749f4b" Version="1.1" Url="http://10.4.134.198/Official/lot-card-contract/change-status" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="_csrf" Value="{{_csrf_modal-formed}}" RecordedValue="SUFVNlJ1WnQxcj9vJA8sQCZ1O0cIAA5DC3Bhej8FPhYkDz8bBA0vOg==" CorrelationBinding="{{FormPostParam14._csrf}}" UrlEncode="True" />
+            <FormPostParameter Name="RequestLifeCycle[D_REQ_STATUS_ID]" Value="29" RecordedValue="29" CorrelationBinding="{{FormPostParam15.RequestLifeCycle[D_REQ_STATUS_ID]}}" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+        <Request Method="GET" Guid="9a7992f2-feda-49dc-8051-3f60aaf8f5e8" Version="1.1" Url="http://10.4.134.198/Official/lot-card-contract/index" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/contracts" />
+          </Headers>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam42.LOT_ID" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="?LOT_ID=" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+          <QueryStringParameters>
+            <QueryStringParameter Name="LOT_ID" Value="{{DataSource.lot_id_and_users#csv.ID}}" RecordedValue="%7B62d2d6a0-56ff-557d-b186-a6d64cca6b40%7D" CorrelationBinding="{{QueryStringParam38.LOT_ID}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="cd6b9dc1-8286-481f-9ea2-b1039c9f19b6" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="5dcca7fe-8eb5-4a0f-858a-6c3fa683d779" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Light-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="70bd06ab-6426-4b4d-863d-46287c31a61a" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Italic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="7248f8d7-3112-473f-bbc0-5d0a99bde222" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="8d85aef9-77df-419c-84ef-75d188b53fd7" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Medium-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="35b55d95-bcb5-499f-bddf-8068c3ee400a" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-MediumItalic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="89afb697-4e72-4878-8e9d-756d50398fc0" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="ed9fcd73-4962-4266-80b8-8f8cf8745c73" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-BoldItalic-webfont.eot" ThinkTime="7" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="10. Изменить статус на Подписан пользователем">
+      <Items>
+        <Request Method="GET" Guid="8a18f3c6-5239-43b4-a088-51258651484e" Version="1.1" Url="http://10.4.134.198/Official/lot-card-contract/modal-signed-user" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="text/html, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="_csrf_modal-signed-user" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;_csrf&quot; value=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="date_signed_user" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;RequestLifeCycle[CUSTOM_DATE_STATUS]&quot; value=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="ExtractRandomMatch" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="SearchInHeaders" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam17.RequestLifeCycle[D_REQ_STATUS_ID]" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;&#xA;&#xA;&lt;" />
+                <RuleParameter Name="Index" Value="1" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam18.RequestLifeCycle[CUSTOM_DATE_STATUS]" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot; dat" />
+                <RuleParameter Name="Index" Value="2" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+        </Request>
+        <Request Method="POST" Guid="86d46e5d-3794-4528-b99e-aa28f830803b" Version="1.1" Url="http://10.4.134.198/Official/lot-card-contract/change-status" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="_csrf" Value="{{_csrf_modal-signed-user}}" RecordedValue="d2htTDFMY0oPWwcVRzYVfhhcAz1rOTd9NVlZAFw8BygaJgdhZzQWBA==" CorrelationBinding="{{FormPostParam16._csrf}}" UrlEncode="True" />
+            <FormPostParameter Name="RequestLifeCycle[D_REQ_STATUS_ID]" Value="5" RecordedValue="5" CorrelationBinding="{{FormPostParam17.RequestLifeCycle[D_REQ_STATUS_ID]}}" UrlEncode="True" />
+            <FormPostParameter Name="RequestLifeCycle[CUSTOM_DATE_STATUS]" Value="{{date_signed_user}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+        <Request Method="GET" Guid="b838a3a4-9cf0-484a-9cd3-f4cc59af2dbe" Version="1.1" Url="http://10.4.134.198/Official/lot-card-contract/index" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/add-info?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam44.LOT_ID" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="?LOT_ID=" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+          <QueryStringParameters>
+            <QueryStringParameter Name="LOT_ID" Value="{{DataSource.lot_id_and_users#csv.ID}}" RecordedValue="%7B62d2d6a0-56ff-557d-b186-a6d64cca6b40%7D" CorrelationBinding="{{QueryStringParam42.LOT_ID}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="48b64e69-9bd1-452f-96b8-75f6aa6f875c" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="5b04ab57-c18b-4e08-988c-5ddb257970b9" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Light-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="0bbaa14d-5df3-4715-8f27-0c8a536a0327" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="5597e02d-cfed-4df5-83bb-c766981776cf" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Italic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="f37d70a5-d004-4144-bf02-c8a3f10fedd2" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Medium-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="48ee4933-3268-4fcd-87be-d2524e3c5724" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-MediumItalic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="3a3e32a0-3cea-4c5a-b82d-544a8e57c7e8" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="9ffff572-5ee9-4482-8f82-564a8bf64cce" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-BoldItalic-webfont.eot" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="11. Изменить статус на Подписан УО">
+      <Items>
+        <Request Method="GET" Guid="01cc75d4-9f1d-4105-b07c-597b823defea" Version="1.1" Url="http://10.4.134.198/Official/lot-card-contract/modal-signed" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="text/html, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="_csrf_modal-signed" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;_csrf&quot; value=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="date_signed" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;RequestLifeCycle[CUSTOM_DATE_STATUS]&quot; value=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="ExtractRandomMatch" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="SearchInHeaders" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam20.RequestLifeCycle[D_REQ_STATUS_ID]" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;&#xA;&#xA;&lt;" />
+                <RuleParameter Name="Index" Value="1" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam21.statusSignUser" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot; sel" />
+                <RuleParameter Name="Index" Value="9" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam22.RequestLifeCycle[CUSTOM_DATE_STATUS]" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot; dat" />
+                <RuleParameter Name="Index" Value="13" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+        </Request>
+        <Request Method="POST" Guid="6080a9d7-3de0-40ef-a2dc-ca3e9918e7dc" Version="1.1" Url="http://10.4.134.198/Official/lot-card-contract/change-status" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="_csrf" Value="{{_csrf_modal-signed}}" RecordedValue="elguZG9lVzECa0Q9GR8hBRVsQBU1EAMGOGkaKAIVM1MXFkRJOR0ifw==" CorrelationBinding="{{FormPostParam19._csrf}}" UrlEncode="True" />
+            <FormPostParameter Name="RequestLifeCycle[D_REQ_STATUS_ID]" Value="6" RecordedValue="6" CorrelationBinding="{{FormPostParam20.RequestLifeCycle[D_REQ_STATUS_ID]}}" UrlEncode="True" />
+            <FormPostParameter Name="RequestLifeCycle[CUSTOM_DATE_STATUS]" Value="{{date_signed}}" RecordedValue="03.02.2017" CorrelationBinding="{{FormPostParam22.RequestLifeCycle[CUSTOM_DATE_STATUS]}}" UrlEncode="True" />
+            <FormPostParameter Name="statusSignUser" Value="{{DataSource.lot_id_and_users#csv.U_ROLE_OGV_ID}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+        <Request Method="GET" Guid="308be0dd-a75e-4be8-a031-c53e6de6e9d6" Version="1.1" Url="http://10.4.134.198/Official/lot-card-contract/index" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/add-info?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam47.LOT_ID" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="?LOT_ID=" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+          <QueryStringParameters>
+            <QueryStringParameter Name="LOT_ID" Value="{{DataSource.lot_id_and_users#csv.ID}}" RecordedValue="%7B62d2d6a0-56ff-557d-b186-a6d64cca6b40%7D" CorrelationBinding="{{QueryStringParam44.LOT_ID}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="139e6423-05ae-4c34-829e-987fddf97b63" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="e3cbfe0a-328f-437b-81b2-49fac1241ab1" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Light-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="3043e38c-0eaa-4e5a-8dcf-0967788d9cde" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="667e07f6-548c-4d7f-86cc-80c96cb10930" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Italic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="a9aaa4e4-79b8-41a3-aba0-60aa5cc9db0b" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Medium-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="24c18a5e-a4ef-43f8-80d9-2d413e5714ab" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-MediumItalic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="9edc3da6-4aa3-4208-bfc5-eae2ea3aebd1" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="06900bb6-2e35-43ac-b735-1db59f8ccb8c" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-BoldItalic-webfont.eot" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="12. Зарегистрирован в Росреестре">
+      <Items>
+        <Request Method="GET" Guid="d2f44278-c093-44d9-aa9d-d83abbcf2ffd" Version="1.1" Url="http://10.4.134.198/Official/lot-card-contract/modal-reg-ros" ThinkTime="8" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="text/html, */*; q=0.01" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="_csrf_modal-reg-ros" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;_csrf&quot; value=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="CUSTOM_DATE_STATUS" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;RequestLifeCycle[CUSTOM_DATE_STATUS]&quot; value=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="ExtractRandomMatch" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="SearchInHeaders" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="DATE_START" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;RosreestrRegistration[DATE_START]&quot; value=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="ExtractRandomMatch" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="SearchInHeaders" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="DATE_END" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="&quot;RosreestrRegistration[DATE_END]&quot; value=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="Required" Value="True" />
+                <RuleParameter Name="ExtractRandomMatch" Value="False" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="SearchInHeaders" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam24.RequestLifeCycle[D_REQ_STATUS_ID]" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;&#xA;&#xA;&lt;" />
+                <RuleParameter Name="Index" Value="1" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam25.RosreestrRegistration[CADASTRAL_CHAMBER_ID]" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;Тер" />
+                <RuleParameter Name="Index" Value="4" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam26.RosreestrRegistration[CONTRACT_NUMBER]" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;Тер" />
+                <RuleParameter Name="Index" Value="4" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam27.RequestLifeCycle[CUSTOM_DATE_STATUS]" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot; dat" />
+                <RuleParameter Name="Index" Value="95" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam28.RosreestrRegistration[DATE_START]" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot; dat" />
+                <RuleParameter Name="Index" Value="95" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam29.RosreestrRegistration[DATE_END]" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot; dat" />
+                <RuleParameter Name="Index" Value="97" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam37.u_his" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;Фил" />
+                <RuleParameter Name="Index" Value="18" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam38.u_cd" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;ТО " />
+                <RuleParameter Name="Index" Value="29" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+        </Request>
+        <Request Method="POST" Guid="82297d52-4011-48b1-af1f-6f2d53215ab7" Version="1.1" Url="http://10.4.134.198/Official/lot-card-contract/change-status" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="_csrf" Value="{{_csrf_modal-reg-ros}}" RecordedValue="blE4Zi5VaEQWYlI/WC8ecAFlVhd0IDxzLGAMKkMlDCYDH1JLeC0dCg==" CorrelationBinding="{{FormPostParam23._csrf}}" UrlEncode="True" />
+            <FormPostParameter Name="RequestLifeCycle[D_REQ_STATUS_ID]" Value="7" RecordedValue="7" CorrelationBinding="{{FormPostParam24.RequestLifeCycle[D_REQ_STATUS_ID]}}" UrlEncode="True" />
+            <FormPostParameter Name="RosreestrRegistration[CADASTRAL_CHAMBER_ID]" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam25.RosreestrRegistration[CADASTRAL_CHAMBER_ID]}}" UrlEncode="True" />
+            <FormPostParameter Name="RosreestrRegistration[CONTRACT_NUMBER]" Value="05022017" RecordedValue="1" CorrelationBinding="{{FormPostParam26.RosreestrRegistration[CONTRACT_NUMBER]}}" UrlEncode="True" />
+            <FormPostParameter Name="RequestLifeCycle[CUSTOM_DATE_STATUS]" Value="{{CUSTOM_DATE_STATUS}}" RecordedValue="03.02.2017" CorrelationBinding="{{FormPostParam27.RequestLifeCycle[CUSTOM_DATE_STATUS]}}" UrlEncode="True" />
+            <FormPostParameter Name="RosreestrRegistration[DATE_START]" Value="{{DATE_START}}" RecordedValue="03.02.2017" CorrelationBinding="{{FormPostParam28.RosreestrRegistration[DATE_START]}}" UrlEncode="True" />
+            <FormPostParameter Name="RosreestrRegistration[DATE_END]" Value="{{DATE_END}}" RecordedValue="02.02.2022" CorrelationBinding="{{FormPostParam29.RosreestrRegistration[DATE_END]}}" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+        <Request Method="GET" Guid="f85dd511-d65e-403f-82f9-fce7d1e32c85" Version="1.1" Url="http://10.4.134.198/Official/lot-card-contract/index" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/add-info?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="LOT_ID" Value="{{DataSource.lot_id_and_users#csv.ID}}" RecordedValue="%7B62d2d6a0-56ff-557d-b186-a6d64cca6b40%7D" CorrelationBinding="{{QueryStringParam47.LOT_ID}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="743bfd25-33a8-4c41-b48e-c0d71c98e8ff" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="237be9a5-3674-48ba-985b-a59d66fa1029" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Light-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="ff8e3caa-69f1-46cb-8a9f-008ef1adf0fa" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="4205cd40-e3f2-48d9-a440-035f516a308f" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Italic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="c42493cc-96bc-486d-a719-2682644172ca" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Medium-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="45f15f25-afee-4a88-97be-89591a9b814c" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-MediumItalic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="5055738a-b550-4303-a6ec-77589109b243" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="16842686-be2e-4533-b7ee-8f75938fffce" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-BoldItalic-webfont.eot" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </Items>
+    </TransactionTimer>
+    <TransactionTimer Name="13. Выйти">
+      <Items>
+        <Request Method="GET" Guid="47433ff6-c168-49b9-b600-9477b6ab8e2c" Version="1.1" Url="http://10.4.134.198/default/logout" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://10.4.134.198/" ReportingName="" IgnoreHttpStatusCode="False">
+          <DependentRequests>
+            <Request Method="GET" Guid="08128efb-235b-4f3f-8391-545dc53b2316" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Thin-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="828806c3-1e01-43ab-bfec-bae3ec6d30d1" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Light-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="4fa53908-71c5-4027-85fb-1b185b50a24d" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Regular-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="0ee0ba2e-9212-4a48-912c-4893ae68f51b" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Italic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="3d7f102e-ba37-4bf1-9b3a-dc07c122cda1" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Medium-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="488fe0af-a4d5-41a9-8f00-720c65e10836" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-MediumItalic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="6873ab91-2f53-4b97-a349-c62e6ae4da56" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-Bold-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="f63a34cd-7e46-4d73-a01d-84393fb91e95" Version="1.1" Url="http://10.4.134.198/frontend/web/fonts/ClearSans-BoldItalic-webfont.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+            <Request Method="GET" Guid="4487fc39-3fd4-4b57-b88d-24fdc4a488f6" Version="1.1" Url="https://fonts.gstatic.com/s/robotoslab/v6/dazS1PrQQuCxC3iOAJFEJTpEpsbGv0WCalYSBSSLSDI.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="ad81d47c-7d9c-49a2-a7f3-81e64841727e" Version="1.1" Url="https://mc.yandex.ru/watch/32379010" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="http://10.4.134.198/" />
+              </Headers>
+              <QueryStringParameters>
+                <QueryStringParameter Name="wmode" Value="5" RecordedValue="5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="callback" Value="_ymjsp807547164" RecordedValue="_ymjsp807547164" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="page-ref" Value="http%3A%2F%2F10.4.134.198%2FOfficial%2Flot-card-contract%2Findex%3FLOT_ID%3D%257B62d2d6a0-56ff-557d-b186-a6d64cca6b40%257D" RecordedValue="http%3A%2F%2F10.4.134.198%2FOfficial%2Flot-card-contract%2Findex%3FLOT_ID%3D%257B62d2d6a0-56ff-557d-b186-a6d64cca6b40%257D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="page-url" Value="http%3A%2F%2F10.4.134.198%2F" RecordedValue="http%3A%2F%2F10.4.134.198%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+                <QueryStringParameter Name="browser-info" Value="ilt%3A0JfQsNGP0LLQu9C10L3QuNGP%3Aj%3A1%3As%3A1821x1024x24%3Ask%3A0.75%3Aadb%3A2%3Af%3A24.0.0.194%3Al%3A5.1.50901.0%3Afpr%3A391975119301%3Acn%3A1%3Aw%3A1359x851%3Az%3A300%3Ai%3A20170204013622%3Aet%3A1486154184%3Aen%3Autf-8%3Av%3A772%3Ac%3A1%3Ala%3Aru-ru%3Apv%3A1%3Als%3A848928741260%3Arqn%3A6%3Arn%3A759419896%3Ahid%3A587623416%3Ads%3A0%2C0%2C2773%2C471%2C120%2C116%2C%2C%2C%2C%2C%2C%2C%3Afp%3A3384%3Arqnl%3A1%3Ast%3A1486154184%3Au%3A1486152533816139577%3At%3A%D0%A4%D0%98%D0%A1%20%C2%AB%D0%9D%D0%B0%20%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA%C2%BB" RecordedValue="ilt%3A0JfQsNGP0LLQu9C10L3QuNGP%3Aj%3A1%3As%3A1821x1024x24%3Ask%3A0.75%3Aadb%3A2%3Af%3A24.0.0.194%3Al%3A5.1.50901.0%3Afpr%3A391975119301%3Acn%3A1%3Aw%3A1359x851%3Az%3A300%3Ai%3A20170204013622%3Aet%3A1486154184%3Aen%3Autf-8%3Av%3A772%3Ac%3A1%3Ala%3Aru-ru%3Apv%3A1%3Als%3A848928741260%3Arqn%3A6%3Arn%3A759419896%3Ahid%3A587623416%3Ads%3A0%2C0%2C2773%2C471%2C120%2C116%2C%2C%2C%2C%2C%2C%2C%3Afp%3A3384%3Arqnl%3A1%3Ast%3A1486154184%3Au%3A1486152533816139577%3At%3A%D0%A4%D0%98%D0%A1%20%C2%AB%D0%9D%D0%B0%20%D0%94%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9%20%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA%C2%BB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+              </QueryStringParameters>
+            </Request>
+          </DependentRequests>
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/Official/lot-card-contract/index?LOT_ID={{DataSource.lot_id_and_users#csv.ID}}" />
+          </Headers>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam48.rel" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="?rel=" />
+                <RuleParameter Name="EndsWith" Value="&quot;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam36.u_nmime" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="utc=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;1 о" />
+                <RuleParameter Name="Index" Value="3" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+        </Request>
+        <Request Method="GET" Guid="bbd7fb47-fcb7-4769-b063-a82c2e2f8e3a" Version="1.1" Url="http://10.4.134.198/infographics/index.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/" />
+          </Headers>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam34.frm" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="dth=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot; str" />
+                <RuleParameter Name="Index" Value="93" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam35.u_nplug" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="dth=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot; str" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+        </Request>
+        <Request Method="GET" Guid="29382f46-c1e3-49ef-9284-3163e222a69d" Version="1.1" Url="https://www.youtube.com/embed/ofyP5rggqB0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <DependentRequests>
+            <Request Method="GET" Guid="e22f03fc-e57b-42d4-ad2e-520ba6a74073" Version="1.1" Url="https://fonts.gstatic.com/s/roboto/v15/m1uAalIytmLBFXF3PwhxpPesZW2xOQ-xsNqO47m55DA.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="https://www.youtube.com/embed/ofyP5rggqB0?rel=0" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="b67e5500-e44c-43a4-a611-01a589775d38" Version="1.1" Url="https://fonts.gstatic.com/s/roboto/v15/OLffGBTaF0XFOW1gnuHF0WOb2gHztoQeulij-1lvl-8.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="https://www.youtube.com/embed/ofyP5rggqB0?rel=0" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="75fa2c9a-927e-4baa-bb64-773ad02a19b1" Version="1.1" Url="https://fonts.gstatic.com/s/roboto/v15/oHi30kwQWvpCWqAhzHcCSD8E0i7KZn-EPnyo3HZu7kw.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="https://www.youtube.com/embed/ofyP5rggqB0?rel=0" />
+              </Headers>
+            </Request>
+            <Request Method="GET" Guid="b3f9aaba-74a2-4fbd-9cc5-5458714224d6" Version="1.1" Url="https://googleads.g.doubleclick.net/pagead/id" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+              <Headers>
+                <Header Name="Referer" Value="https://www.youtube.com/embed/ofyP5rggqB0?rel=0" />
+              </Headers>
+            </Request>
+          </DependentRequests>
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam31.bc" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="pi&quot;:&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;,&quot;ap" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam32.vis" DisplayName="Извлечь текст" Description="Извлеките текст из отклика и поместите его в контекст теста.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="pi&quot;:&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;,&quot;ap" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <CorrelationExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam30.u_java" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="led=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;&#xA;&lt;h" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam33.wgl" DisplayName="" Description="">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="led=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot;&gt;&#xA;&lt;h" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </CorrelationExtractionRules>
+          <QueryStringParameters>
+            <QueryStringParameter Name="rel" Value="0" RecordedValue="0" CorrelationBinding="{{QueryStringParam48.rel}}" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="4e7f4e5a-42a6-4826-9a26-3ab5dc846fc3" Version="1.1" Url="http://10.4.134.198/infographics/7c64fb3c06a8c60fc0f756d50d8e86d4.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/infographics/index.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="ad4b54c7-d86c-4553-bb2f-a708d4abb086" Version="1.1" Url="http://10.4.134.198/infographics/cf2202cb0f490f0d6d4b28d98dfee0e3.eot" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://10.4.134.198/infographics/index.html" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="POST" Guid="6f31089d-dd91-4f18-af73-16cd87d8a6aa" Version="1.1" Url="https://www.youtube.com/ad_data_204" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.youtube.com/embed/ofyP5rggqB0?rel=0" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="dt" Value="1486154186062" RecordedValue="1486154186062" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="flash" Value="24.0.0" RecordedValue="24.0.0" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="frm" Value="2" RecordedValue="2" CorrelationBinding="{{FormPostParam34.frm}}" UrlEncode="True" />
+            <FormPostParameter Name="u_tz" Value="300" RecordedValue="300" CorrelationBinding="{{FormPostParam39.u_tz}}" UrlEncode="True" />
+            <FormPostParameter Name="u_his" Value="14" RecordedValue="14" CorrelationBinding="{{FormPostParam37.u_his}}" UrlEncode="True" />
+            <FormPostParameter Name="u_java" Value="true" RecordedValue="true" CorrelationBinding="{{FormPostParam30.u_java}}" UrlEncode="True" />
+            <FormPostParameter Name="u_h" Value="1024" RecordedValue="1024" CorrelationBinding="{{FormPostParam40.u_h}}" UrlEncode="True" />
+            <FormPostParameter Name="u_w" Value="1821" RecordedValue="1821" CorrelationBinding="{{FormPostParam41.u_w}}" UrlEncode="True" />
+            <FormPostParameter Name="u_ah" Value="984" RecordedValue="984" CorrelationBinding="{{FormPostParam42.u_ah}}" UrlEncode="True" />
+            <FormPostParameter Name="u_aw" Value="1821" RecordedValue="1821" CorrelationBinding="{{FormPostParam43.u_aw}}" UrlEncode="True" />
+            <FormPostParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="{{FormPostParam38.u_cd}}" UrlEncode="True" />
+            <FormPostParameter Name="u_nplug" Value="3" RecordedValue="3" CorrelationBinding="{{FormPostParam35.u_nplug}}" UrlEncode="True" />
+            <FormPostParameter Name="u_nmime" Value="5" RecordedValue="5" CorrelationBinding="{{FormPostParam36.u_nmime}}" UrlEncode="True" />
+            <FormPostParameter Name="bid" Value="ANyPxKrUN4wi8dMMV_JSpdBKpsqo_ej3VAExZDJab2KNdW70zhPt5vaRb-40dnqRwE53Pyxchkxu" RecordedValue="ANyPxKrUN4wi8dMMV_JSpdBKpsqo_ej3VAExZDJab2KNdW70zhPt5vaRb-40dnqRwE53Pyxchkxu" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="ca_type" Value="flash" RecordedValue="flash" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="bc" Value="{{FormPostParam31.bc}}" RecordedValue="1" CorrelationBinding="{{FormPostParam31.bc}}" UrlEncode="True" />
+            <FormPostParameter Name="bih" Value="-12245933" RecordedValue="-12245933" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="biw" Value="-12245933" RecordedValue="-12245933" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="brdim" Value="712,607,-11,-11,1821,,1843,1005,738,410" RecordedValue="712,607,-11,-11,1821,,1843,1005,738,410" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="vis" Value="{{FormPostParam32.vis}}" RecordedValue="1" CorrelationBinding="{{FormPostParam32.vis}}" UrlEncode="True" />
+            <FormPostParameter Name="wgl" Value="true" RecordedValue="true" CorrelationBinding="{{FormPostParam33.wgl}}" UrlEncode="True" />
+            <FormPostParameter Name="session_token" Value="QUFFLUhqbkdnXzJpS054bmlYOWhqZTJGU1M3VURmbXFjZ3xBQ3Jtc0trUUZmdWdZWGdvN2phVko5eFJPRk9RVE5MQmJobmtfcElXcHhrZTNqY3J0dmRUSU9FeEJiMWQxZEoxWFhTT1F3ZFlTQTlSekNXbmJtSU1MaTJHc2pJX2ZHcGJJcm1BQ055bHc0M1hyZUk5MXpnbjRReFM4dGJXNXNKMnlzREhlMjdLeUc2QU5xYllTMDY2cVFsUWF1Wm1faWhkS2c=" RecordedValue="QUFFLUhqbkdnXzJpS054bmlYOWhqZTJGU1M3VURmbXFjZ3xBQ3Jtc0trUUZmdWdZWGdvN2phVko5eFJPRk9RVE5MQmJobmtfcElXcHhrZTNqY3J0dmRUSU9FeEJiMWQxZEoxWFhTT1F3ZFlTQTlSekNXbmJtSU1MaTJHc2pJX2ZHcGJJcm1BQ055bHc0M1hyZUk5MXpnbjRReFM4dGJXNXNKMnlzREhlMjdLeUc2QU5xYllTMDY2cVFsUWF1Wm1faWhkS2c=" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+      </Items>
+    </TransactionTimer>
+  </Items>
+  <DataSources>
+    <DataSource Name="DataSource" Provider="Microsoft.VisualStudio.TestTools.DataSource.CSV" Connection="|DataDirectory|\lot_id_and_users.csv">
+      <Tables>
+        <DataSourceTable Name="lot_id_and_users#csv" SelectColumns="SelectOnlyBoundColumns" AccessMethod="Sequential" />
+      </Tables>
+    </DataSource>
+  </DataSources>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="URL-адрес отклика" Description="Проверка того, что URL-адрес отклика после выполнения перенаправлений такой же, как записанный URL-адрес отклика.  Параметры QueryString игнорируются." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Целевое время отклика" Description="Проверка на превышение временем отклика на запрос эталона времени отклика, указанного в запросе.  Цели времени отклика, равные нулю, будут пропущены." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
